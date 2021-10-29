@@ -1,0 +1,65 @@
+/*tags*/
+body{
+    background-color: black;
+}
+button{
+    font-size: 20px;
+    margin: 10% 5%;
+    padding: 50px 50px;
+    color: white;
+    transition: .5s ease all;
+}
+/*classes*/
+.flex{
+    display: flex;
+}
+.item{
+    flex-grow: initial;
+}
+.ponto{
+    background-color: white;
+    width: 30px;
+    height: 10px;
+    margin-top: 13%;
+}
+.pilar1{
+    background-color: rgb(255, 38, 0);
+}
+.pilar1:hover{
+    background-color: rgb(141, 26, 6);   
+    margin-left: 50%;
+}
+
+.pilar2{
+    background-color: rgb(255, 123, 0);
+}
+.pilar2:hover{
+    background-color: rgb(151, 74, 3);
+    margin-left: 50%;
+}
+
+.pilar3{
+    background-color: rgb(25, 0, 255);
+}
+.pilar3:hover{
+    background-color: rgb(15, 176, 204);
+    padding: 5px 5px;
+}
+
+.pilar4{
+    background-color: rgb(5, 141, 28);
+}
+.pilar4:hover{
+    background-color: rgb(81, 231, 67);
+    padding: 5px 5px;
+}
+
+/* por ID */
+#pilar{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#imagem{
+    margin-left: 20%;
+}
